@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clip-arrow {
+  clip-path: polygon(0 0, 85% 0, 100% 50%, 85% 100%, 0 100%);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base{
+  body {
+    background-color: #14161b;
+  }
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color:orange !important;
+}
