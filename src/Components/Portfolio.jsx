@@ -21,7 +21,7 @@ function Portfolio() {
             {
                 breakpoint: 768, // <= 768px (tablets)
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                 },
             },
