@@ -1,6 +1,3 @@
-
-
-
 # React Portfolio Project
 
 This is a modern, responsive portfolio website built with React and Tailwind CSS. It showcases your skills, projects, education, and provides a way for visitors to contact you.
