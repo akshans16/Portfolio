@@ -8,7 +8,7 @@ import Contact from "./Components/Contact";
 function App() {
     return (
         <>
-            <div className="flex items-center flex-col gap-10 bg-[#212121] text-white min-h-screen">
+            <div className="flex items-center flex-col gap-10 bg-[#212121] text-white min-h-screen overflow-x-hidden">
                 <Header />
                 <Info />
                 <AboutMe/>
