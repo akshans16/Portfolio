@@ -23,7 +23,7 @@ This is a modern, responsive portfolio website built with React and Tailwind CSS
 ## 📂 Project Structure
 
 - `src/Components/` – All main React components (Header, AboutMe, Resume, Portfolio, Contact, etc.)
-  - `png/` – PNG images used in the project
+- `png/` – PNG images used in the project
 - `public/` – Static files
 
 ## 🛠️ Getting Started
@@ -46,7 +46,7 @@ This is a modern, responsive portfolio website built with React and Tailwind CSS
 ## 🖼️ Customization
 
 - Update your personal info, skills, education, and project data in the respective components in `src/Components/`.
-- Replace images in `src/assets/png/` as needed.
+- Replace images in `public/png/` as needed.
 - Update social links in `Header.jsx`.
 
 ## 📦 Build for Production
