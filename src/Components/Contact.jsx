@@ -25,7 +25,7 @@ function Contact() {
                 {/* Email field */}
                 <div className="flex mb-4 w-full max-w-md gap-5">
                     <div>
-                        <img src="src/assets/png/email.png" alt="email png" />
+                        <img src="png/email.png" alt="email png" />
                     </div>
                     <input
                         className="shadow appearance-none border border-[#f49108] rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
@@ -39,7 +39,7 @@ function Contact() {
                 {/* Message Field */}
                 <div className="flex mb-4 w-full max-w-md gap-5">
                     <div>
-                        <img src="src/assets/png/message.png" alt="message png" />
+                        <img src="png/message.png" alt="message png" />
                     </div>
                     <input
                         className="shadow appearance-none border border-[#f49108] rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"

@@ -48,7 +48,7 @@ function Portfolio() {
             {/* Container for heading (Recent Projects) */}
             <div className="flex justify-between space-around w-full min-h-auto p-4">
                 <div className="flex gap-4">
-                    <img src="src/assets/png/project.png" alt="Projecs Icon" className="w-[32px]" />
+                    <img src="png/project.png" alt="Projecs Icon" className="w-[32px]" />
                     <h3 className="text-2xl font-bold text-[#f49108]">Recent Projects</h3>
                 </div>
             </div>

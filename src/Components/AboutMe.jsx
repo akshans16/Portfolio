@@ -56,7 +56,7 @@ function AboutMe() {
             {/* Image - Bottom on mobile, right on desktop */}
             <div className="w-full md:w-1/2 h-64 md:h-full p-5">
                 <img
-                    src="src/assets/png/developerImg.gif"
+                    src="png/developerImg.gif"
                     alt="Developer Image"
                     className="w-full h-full object-cover"
                 />

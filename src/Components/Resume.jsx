@@ -15,7 +15,7 @@ function Resume() {
                     {/* Skills */}
                     <div className="flex flex-col gap-15 justify-center  w-full ">
                         <div className="flex gap-4 justify-center">
-                            <img src="src/assets/png/stack.png" alt="Stack Icon" className="w-[32px]" />
+                            <img src="png/stack.png" alt="Stack Icon" className="w-[32px]" />
                             <h3 className="text-2xl font-bold font-Pompiere text-[#f49108] text-center">Tech Stack</h3>
                         </div>
                         {/* Skill Icons */}
@@ -23,30 +23,30 @@ function Resume() {
                             {/* Row - 1 */}
                             <div className="flex gap-10">
                                 <div className="flex flex-col items-center gap-2">
-                                    <img src="src/assets/png/html.png" alt="html png" />
+                                    <img src="png/html.png" alt="html png" />
                                     <span>HTML</span>
                                 </div>
                                 <div className="flex flex-col items-center gap-2">
-                                    <img src="src/assets/png/css.png" alt="css png" />
+                                    <img src="png/css.png" alt="css png" />
                                     <span>CSS</span>
                                 </div>
                                 <div className="flex flex-col items-center gap-2">
-                                    <img src="src/assets/png/javascript.png" alt="js png" />
+                                    <img src="png/javascript.png" alt="js png" />
                                     <span>JavaScript</span>
                                 </div>
                             </div>
                             {/* Row - 2 */}
                             <div className="flex gap-10">
                                 <div className="flex flex-col items-center gap-2">
-                                    <img src="src/assets/png/java.png" alt="java png" />
+                                    <img src="png/java.png" alt="java png" />
                                     <span>Java</span>
                                 </div>
                                 <div className="flex flex-col items-center gap-2">
-                                    <img src="src/assets/png/sql.png" alt="sql png" />
+                                    <img src="png/sql.png" alt="sql png" />
                                     <span>SQL</span>
                                 </div>
                                 <div className="flex flex-col items-center gap-2">
-                                    <img src="src/assets/png/react.png" alt="react png" />
+                                    <img src="png/react.png" alt="react png" />
                                     <span>React</span>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ function Resume() {
                     {/* Education */}
                     <div className="flex flex-col justify-center  w-full gap-15">
                         <div className="flex gap-4 justify-center">
-                            <img src="src/assets/png/education.png" alt="Eduation Icon" className="w-[32px]" />
+                            <img src="png/education.png" alt="Eduation Icon" className="w-[32px]" />
                             <h3 className="text-2xl font-bold font-Pompiere text-[#f49108] text-center">Education</h3>
                         </div>
 

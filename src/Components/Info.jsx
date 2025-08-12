@@ -84,7 +84,7 @@ function Info() {
             <div className="p-[3px] rounded-full bg-gradient-to-r from-orange-500 to-pink-500 flex-shrink-0 order-1 md:order-2">
                 <div className="w-40 h-40 md:w-48 md:h-48">
                     <img
-                        src="src/assets/png/Profile.png"
+                        src="png/Profile.png"
                         alt="Developer Profile"
                         className="w-full h-full object-cover rounded-full"
                     />
