@@ -8,35 +8,34 @@ function Portfolio() {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 2,
+        slidesToShow: 3, // desktop
         slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024, // <= 1024px
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 768, // <= 768px (tablets)
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoint: 480, // <= 480px (phones)
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                },
+            },
+        ],
     };
-    responsive: [
-        {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true,
-            },
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                initialSlide: 2,
-            },
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            },
-        },
-    ];
+
     return (
         <div
             id="portfolio"
@@ -49,14 +48,13 @@ function Portfolio() {
             {/* Container for heading (Recent Projects) */}
             <div className="flex justify-between space-around w-full min-h-auto p-4">
                 <div className="flex gap-4">
-                    <img src="src/assets/png/project.png" alt="Projecs Icon" 
-                    className="w-[32px]"/>
+                    <img src="src/assets/png/project.png" alt="Projecs Icon" className="w-[32px]" />
                     <h3 className="text-2xl font-bold text-[#f49108]">Recent Projects</h3>
                 </div>
             </div>
 
             {/* Project Cards Container */}
-            <div className="w-full h-auto pt-0 pr-10 pb-10 pl-4">
+            <div className="w-full h-auto pt-0 px-6 pb-10 ">
                 <Slider {...settings}>
                     {data.map((d) => (
                         <CustomCard image={d.image} title={d.title} text={d.text} />

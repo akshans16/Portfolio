@@ -17,11 +17,11 @@ function Contact() {
     };
 
     return (
-        <div id="contact" className="w-[65%] min-h-auto flex flex-col items-start bg-[#242424] p-10 gap-5 mb-10">
-            <h1 className="text-3xl font-bold text-[#f49108]">Connect With Me</h1>
+        <div id="contact" className="w-full min-h-auto flex flex-col items-start bg-[#242424] p-10 gap-5 mb-10 md:w-[65%]">
+            <h1 className="text-3xl font-bold text-[#f49108] md:w-[65%]">Connect With Me</h1>
 
             {/* contact form */}
-            <div className="flex flex-col items-center gap-4 w-full p-8">
+            <div className="flex flex-col items-center gap-4 w-full p-4 md:p-8">
                 {/* Email field */}
                 <div className="flex mb-4 w-full max-w-md gap-5">
                     <div>
