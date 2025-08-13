@@ -21,7 +21,7 @@ function Portfolio() {
             {
                 breakpoint: 768, // <= 768px (tablets)
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                 },
             },
@@ -39,7 +39,7 @@ function Portfolio() {
     return (
         <div
             id="portfolio"
-            className="portfolio  w-full md:w-[65%] min-h-auto bg-[#232323] flex flex-col items-center p-5 gap-5 scroll-mt-[80px]"
+            className="portfolio  w-full md:w-[90%] min-h-auto bg-[#232323] flex flex-col items-center p-5 gap-5 scroll-mt-[80px] lg:w-[65%]"
         >
             {/* Portfolio Heading */}
             <div className=" text-2xl font-bold font-Pompiere bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">

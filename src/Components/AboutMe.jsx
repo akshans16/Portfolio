@@ -35,7 +35,7 @@
 
 function AboutMe() {
     return (
-        <div id="about" className="w-full md:w-[65%] h-auto md:h-[400px] flex flex-col md:flex-row bg-[#262626] scroll-mt-[80px]">
+        <div id="about" className="w-full md:w-[90%] h-auto md:h-[400px] flex flex-col md:flex-row bg-[#262626] scroll-mt-[80px] lg:w-[65%]">
             {/* Text Content - Top on mobile, left on desktop */}
             <div className="flex flex-col gap-4 md:gap-4 w-full md:w-1/2 p-6 md:p-8">
                 <h3 className="text-2xl md:text-3xl font-bold font-Pompiere bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">

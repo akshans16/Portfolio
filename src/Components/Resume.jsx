@@ -3,7 +3,8 @@ function Resume() {
         <>
             <div
                 id="resume"
-                className="w-full h-auto bg-[#232323] flex flex-col items-center p-5 gap-10 scroll-mt-[80px] md:w-[65%] ">
+                className="w-full h-auto bg-[#232323] flex flex-col items-center p-5 gap-10 scroll-mt-[80px] md:w-[90%] lg:w-[65%] "
+            >
                 {/* Resume Heading */}
 
                 <div className=" text-2xl font-bold font-Pompiere bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
@@ -11,14 +12,14 @@ function Resume() {
                 </div>
 
                 {/* Skills + Education Container */}
-                <div className="flex flex-col justify-center h-full w-full gap-2  md:flex-row ">
+                <div className="flex flex-col justify-center h-full w-full gap-4  md:flex-row ">
                     {/* Skills */}
                     <div className="flex flex-col gap-15 justify-center  w-full ">
                         <div className="flex gap-4 justify-center">
                             <img src="png/stack.png" alt="Stack Icon" className="w-[32px]" />
                             <h3 className="text-2xl font-bold font-Pompiere text-[#f49108] text-center">Tech Stack</h3>
                         </div>
-                        
+
                         <div className="flex flex-col gap-10 items-center justify-center w-full h-full mb-10 ">
                             {/* Row - 1 */}
                             <div className="flex gap-10">
@@ -62,11 +63,10 @@ function Resume() {
 
                         {/* Education Items Container 👇 */}
                         <div className="flex flex-col gap-10 items-start  w-full h-full">
-
                             {/* Education Item 1 */}
                             <div className="flex items-start gap-4">
                                 {/* Arrow box */}
-                                <div className="bg-yellow-400 text-black font-bold px-4 py-2 w-28 text-sm clip-arrow">
+                                <div className="bg-yellow-400 text-black font-bold px-4 w-28 text-sm clip-arrow h-8 flex items-center justify-center whitespace-nowrap">
                                     2024-2026
                                 </div>
 
@@ -81,7 +81,7 @@ function Resume() {
 
                             {/* Education Item 2 */}
                             <div className="flex items-start gap-4">
-                                <div className="bg-yellow-400 text-black font-bold px-4 py-2 w-28 text-sm clip-arrow">
+                                <div className="bg-yellow-400 text-black font-bold px-4 w-28 text-sm clip-arrow h-8 flex items-center justify-center whitespace-nowrap">
                                     2021-2024
                                 </div>
 
