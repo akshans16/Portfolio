@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function Portfolio() {
-
     const settings = {
         dots: true,
         infinite: true,
@@ -18,10 +17,11 @@ function Portfolio() {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
+                    
                 },
             },
             {
-                breakpoint: 768, // <= 768px (tablets)
+                breakpoint: 800, // <= 800px (tablets) (My Device Realme 12x)
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -35,6 +35,7 @@ function Portfolio() {
                     centerMode: false,
                 },
             },
+            
         ],
     };
 
