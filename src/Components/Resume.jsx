@@ -3,7 +3,7 @@ function Resume() {
         <>
             <div
                 id="resume"
-                className="w-full h-auto bg-[#232323] flex flex-col items-center p-5 gap-10 scroll-mt-[80px] md:w-[90%] lg:w-[65%] "
+                className="w-full h-auto bg-[#232323] flex flex-col items-center p-5 gap-10 scroll-mt-[80px] md:w-[90%] lg:w-[65%] mt-10"
             >
                 {/* Resume Heading */}
 

@@ -2,47 +2,42 @@ import CustomCard from "./CustomCard";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import {useState,useEffect} from "react";
 
 function Portfolio() {
-    const settings = {
+
+    var settings = {
+        accessbility:true,
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: 3, // default for desktops
         slidesToScroll: 1,
 
         responsive: [
             {
-                breakpoint: 1024, // <= 1024px
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    
-                },
-            },
-            {
-                breakpoint: 800, // <= 800px (tablets) (My Device Realme 12x)
+                breakpoint: 1024, // max-width 1024px
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
                 },
             },
             {
-                breakpoint: 480, // <= 480px (phones)
+                breakpoint: 768, // max-width 768px
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    centerMode: false,
                 },
             },
-            
         ],
     };
+
 
     return (
         <div
             id="portfolio"
-            className="portfolio  w-full md:w-[90%] min-h-auto bg-[#232323] flex flex-col items-center p-5 gap-5 scroll-mt-[80px] lg:w-[65%]"
+            className="portfolio  w-full md:w-[90%] min-h-auto bg-[#232323] flex flex-col items-center p-5 gap-5 scroll-mt-[80px] lg:w-[65%] mt-10"
+            
         >
             {/* Portfolio Heading */}
             <div className=" text-2xl font-bold font-Pompiere bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
@@ -57,7 +52,7 @@ function Portfolio() {
             </div>
 
             {/* Project Cards Container */}
-            <div className="w-full h-auto pt-0 px-6 pb-10 ">
+            <div className="w-full h-auto pt-0 px-6 pb-10 min-w-0">
                 <Slider {...settings}>
                     {data.map((d) => (
                         <CustomCard image={d.image} title={d.title} text={d.text} />

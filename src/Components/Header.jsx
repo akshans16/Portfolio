@@ -89,7 +89,7 @@ export default function Header() {
                     isMenuOpen ? "max-h-16 mt-3" : "max-h-0 mt-0"
                 }`}
             >
-                <ul className="flex flex-row justify-around items-center py-3 space-x-4 font-bold text-white">
+                <ul className="flex justify-around items-center py-3 font-bold text-white">
                     <li className="hover:text-gray-500 transition-colors duration-300">
                         <a href="#home" onClick={() => setIsMenuOpen(false)}>
                             Home

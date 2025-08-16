@@ -17,7 +17,7 @@ function Contact() {
     };
 
     return (
-        <div id="contact" className="w-full min-h-auto flex flex-col items-start bg-[#242424] p-10 gap-5 mb-10 md:w-[90%] lg:w-[65%]">
+        <div id="contact" className="w-full min-h-auto flex flex-col items-start bg-[#242424] p-10 gap-5 mb-10 md:w-[90%] lg:w-[65%] mt-10">
             <h1 className="text-3xl font-bold text-[#f49108] md:w-[65%]">Connect With Me</h1>
 
             {/* contact form */}

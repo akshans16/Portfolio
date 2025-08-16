@@ -7,7 +7,7 @@ function Info() {
     return (
         <div
             id="home"
-            className="w-full md:w-[90%] min-h-6xl bg-[#262626] flex flex-col md:flex-row items-center justify-between rounded-xs p-6 md:p-10 mt-20 md:mt-25 gap-8 md:gap-30 scroll-mt-[80px] lg:w-[65%]"
+            className="w-full md:w-[90%] min-h-auto bg-[#262626] flex flex-col md:flex-row items-center justify-between rounded-md p-6 md:p-10 mt-20 md:mt-24 gap-8 md:gap-10 scroll-mt-[80px] lg:w-[65%] "
         >
             {/* Content Section - Order changes on mobile */}
             <div className="flex flex-col items-center md:items-start gap-6 md:gap-8 text-center md:text-left order-2 md:order-1">
